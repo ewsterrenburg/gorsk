@@ -7,14 +7,14 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	gorsk "github.com/ribice/gorsk/pkg/utl/model"
+	gorsk "github.com/ewsterrenburg/gorsk/pkg/utl/model"
 
-	"github.com/ribice/gorsk/pkg/api/user"
-	"github.com/ribice/gorsk/pkg/api/user/transport"
+	"github.com/ewsterrenburg/gorsk/pkg/api/user"
+	"github.com/ewsterrenburg/gorsk/pkg/api/user/transport"
 
-	"github.com/ribice/gorsk/pkg/utl/mock"
-	"github.com/ribice/gorsk/pkg/utl/mock/mockdb"
-	"github.com/ribice/gorsk/pkg/utl/server"
+	"github.com/ewsterrenburg/gorsk/pkg/utl/mock"
+	"github.com/ewsterrenburg/gorsk/pkg/utl/mock/mockdb"
+	"github.com/ewsterrenburg/gorsk/pkg/utl/server"
 
 	"github.com/go-pg/pg/orm"
 	"github.com/labstack/echo"

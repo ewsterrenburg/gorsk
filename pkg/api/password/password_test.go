@@ -3,11 +3,11 @@ package password_test
 import (
 	"testing"
 
-	"github.com/ribice/gorsk/pkg/api/password"
+	"github.com/ewsterrenburg/gorsk/pkg/api/password"
 
-	"github.com/ribice/gorsk/pkg/utl/mock"
-	"github.com/ribice/gorsk/pkg/utl/mock/mockdb"
-	"github.com/ribice/gorsk/pkg/utl/model"
+	"github.com/ewsterrenburg/gorsk/pkg/utl/mock"
+	"github.com/ewsterrenburg/gorsk/pkg/utl/mock/mockdb"
+	"github.com/ewsterrenburg/gorsk/pkg/utl/model"
 
 	"github.com/go-pg/pg/orm"
 	"github.com/labstack/echo"

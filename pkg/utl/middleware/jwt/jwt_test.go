@@ -6,10 +6,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ribice/gorsk/pkg/utl/middleware/jwt"
-	"github.com/ribice/gorsk/pkg/utl/model"
+	"github.com/ewsterrenburg/gorsk/pkg/utl/middleware/jwt"
+	"github.com/ewsterrenburg/gorsk/pkg/utl/model"
 
-	"github.com/ribice/gorsk/pkg/utl/mock"
+	"github.com/ewsterrenburg/gorsk/pkg/utl/mock"
 
 	"github.com/labstack/echo"
 	"github.com/stretchr/testify/assert"
